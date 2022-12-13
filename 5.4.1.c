@@ -15,6 +15,7 @@ void *processA(void *mess){
         sem_post(&sem2);
     }
 }
+
 void *processB(void *mess){
     while (1){
         sem_wait(&sem2);

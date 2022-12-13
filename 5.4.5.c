@@ -3,7 +3,7 @@
 #include <semaphore.h>
 #include <stdlib.h>
 
-int x1 = 1 , x2 = 2, x3 = 3, x4 = 4, x5 = 5, x6 = 6;
+int x1, x2, x3, x4, x5, x6;
 int y, z, v, w, ans;
 sem_t sem0, sem1, sem2, sem3, sem4, sem5, sem6;
 
