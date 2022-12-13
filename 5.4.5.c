@@ -67,7 +67,7 @@ void *processF(void *mess){
 void *processG(void *mess){
         sem_wait(&sem6);
         ans = y + z;
-        printf("ans = %d\n", ans);
+        printf("ans = %d\n", ans);                                                                                                                                                                                                                                                                                                   
 }
 
 int main(){
